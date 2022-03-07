@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    margin-top: 0px;
+    background-color: #1F2937;
+}
+.parent1{
+    display: flex;
+    color: white;
+    flex-basis: 100%;
+    padding-bottom: 60px;
+    gap: 20px;
+    padding-top: 90px;
+
+}
+.sub-par{
+    padding-left: 40px;
+}
+.parent1 h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+#name{
+    color: greenyellow;
+}
+.header{
+    display: flex;
+    color: white;
+    gap: 800px;
+    padding-top: 25px;
+}
+#logo{
+    padding-left: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.sub-par p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.navbar{
+    display: flex;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 15px;
+    font-size: 18px;
+}
+#button1{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.content1{
+    padding-top: 30px;
+    background-color: white;
+}
+#text1{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.pic-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic-container img{
+    border-radius: 10px;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 20px ;
+}
+.myquote p{
+    font-size: 36px;
+    color: #1F2937;
+    padding-left: 350px;
+}
+#text2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: right;
+}
+.action{
+    background-color: white;
+}
+.cta{
+    padding: 80px;
+}
+.cta-text{
+    display: flex;
+
+}
+.cta div{
+    background-color: #3882F6;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    border-radius: 9px;
+    justify-content: space-between;
+    color: white;
+}
+#button2{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid white;
+    padding: 10px 12px 7px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button-class{
+    padding-right: 40px;
+}
+#promo-text{
+    font-size: 30px;
+}
+#txt{
+    text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
+}
+.footer{
+    background-color: #1F2937;
+    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-text p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
